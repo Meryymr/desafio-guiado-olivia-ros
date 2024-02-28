@@ -1,0 +1,76 @@
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+/*INICIO NAV*/
+nav {
+    background-color: #373A3C;
+}
+
+/*FIN NAV*/
+
+/*INICIO ESTILOS HEADER*/
+header {
+    height: 45vw;
+    min-height: 608px;
+    background-image: url(../img/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 40px;
+    padding-top: 90px;
+    font-weight: bolder;
+}
+
+/*FIN ESTILOS HEADER*/
+
+/*INICIO ESTILOS ABOUT ME*/
+#aboutme i {
+    font-size: 70px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#works {
+    background-color: #17A2B8;
+}
+
+#contact {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#works .card-body-second {
+    height: 120 px;
+}
+
+footer {
+    background-color: #0F0F0F;
+}
+
+/*FIN ESTILOS ABOUT ME*/
+
+/* INICIO REGLAS PARA PANTALLAS GRANDES DESKTOP */
+
+@media (min-width: 768px) {
+    /* MEDIA QUERIES */
+
+    /* INICIO ESTILOS header */
+    header h1 {
+        font-size: 70px;
+    }
+
+    .wrapper-contenido-header {
+        padding-left: 15vw;
+    }
+
+    /* FIN ESTILOS header */
+}
+
+
+/* FIN REGLAS PARA PANTALLAS GRANDES */
